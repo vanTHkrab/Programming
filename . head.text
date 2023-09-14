@@ -1,0 +1,4 @@
+# include <>
+stdio.h (output or input text)
+math.h (is math thanks)
+stdbool.h (ture(1) or false(0))
