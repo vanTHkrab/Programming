@@ -10,7 +10,7 @@ int main()
         if (num == 70 || num % 10 == 7) { // (|| is "or")
             printf("BUZZ\n");
         }
-        else if (num % 7 == 0 && num != 0) {
+        else if (num % 7 == 0) {
             printf("BUZZ-BUZZ\n");
         }
         else {
