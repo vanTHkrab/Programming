@@ -7,7 +7,7 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &num);
     if (num > 0 && num < 100) { // 1-99 and && is "and"
-        if (num == 77 || num == 7 || num == 70) { // || is "or"
+        if (num == 70 || num % 10 == 7) { // || is "or"
             printf("BUZZ\n");
         }
         else if (num % 7 == 0 && num != 0) {
