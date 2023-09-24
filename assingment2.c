@@ -6,8 +6,8 @@ int main()
     int num;
     printf("Enter a number between 1-99: ");
     scanf("%d", &num);
-    if (num > 0 && num < 100) { // 1-99 and && is "and"
-        if (num == 70 || num % 10 == 7) { // || is "or"
+    if (num > 0 && num < 100) { // (num 1-99) and (&& is "and")
+        if (num == 70 || num % 10 == 7) { // (|| is "or")
             printf("BUZZ\n");
         }
         else if (num % 7 == 0 && num != 0) {
